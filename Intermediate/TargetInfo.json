@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Aura",
+			"Path": "C:\\Users\\Luisl\\OneDrive\\Escritorio\\AuraRPG\\Aura\\Source\\Aura.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AuraEditor",
+			"Path": "C:\\Users\\Luisl\\OneDrive\\Escritorio\\AuraRPG\\Aura\\Source\\AuraEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
