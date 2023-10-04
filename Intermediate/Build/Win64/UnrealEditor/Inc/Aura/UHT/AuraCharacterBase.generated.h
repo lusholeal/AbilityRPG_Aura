@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "AuraCharacterBase.h"
+// IWYU pragma: private, include "Character/AuraCharacterBase.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,32 +14,32 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AURA_AuraCharacterBase_generated_h
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_SPARSE_DATA
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_RPC_WRAPPERS
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_ACCESSORS
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_SPARSE_DATA
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_RPC_WRAPPERS
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_ACCESSORS
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraCharacterBase(); \
 	friend struct Z_Construct_UClass_AAuraCharacterBase_Statics; \
 public: \
-	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
+	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
 	DECLARE_SERIALIZER(AAuraCharacterBase)
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_INCLASS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAAuraCharacterBase(); \
 	friend struct Z_Construct_UClass_AAuraCharacterBase_Statics; \
 public: \
-	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
+	DECLARE_CLASS(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), NO_API) \
 	DECLARE_SERIALIZER(AAuraCharacterBase)
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_STANDARD_CONSTRUCTORS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraCharacterBase(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraCharacterBase) \
+	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraCharacterBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAuraCharacterBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAuraCharacterBase); \
 private: \
@@ -50,7 +50,7 @@ public: \
 	NO_API virtual ~AAuraCharacterBase();
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAuraCharacterBase(AAuraCharacterBase&&); \
@@ -58,31 +58,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAuraCharacterBase); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAuraCharacterBase); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAuraCharacterBase) \
+	DEFINE_ABSTRACT_DEFAULT_CONSTRUCTOR_CALL(AAuraCharacterBase) \
 	NO_API virtual ~AAuraCharacterBase();
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_9_PROLOG
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_GENERATED_BODY_LEGACY \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_9_PROLOG
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_SPARSE_DATA \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_RPC_WRAPPERS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_ACCESSORS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_INCLASS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_STANDARD_CONSTRUCTORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_SPARSE_DATA \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_RPC_WRAPPERS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_ACCESSORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_INCLASS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_GENERATED_BODY \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_SPARSE_DATA \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_ACCESSORS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_SPARSE_DATA \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_ACCESSORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -90,7 +90,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AURA_API UClass* StaticClass<class AAuraCharacterBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_AuraCharacterBase_h
+#define CURRENT_FILE_ID FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraCharacterBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
