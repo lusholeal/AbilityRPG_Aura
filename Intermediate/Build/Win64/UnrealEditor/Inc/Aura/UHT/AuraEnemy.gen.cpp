@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 	AURA_API UClass* Z_Construct_UClass_AAuraCharacterBase();
 	AURA_API UClass* Z_Construct_UClass_AAuraEnemy();
 	AURA_API UClass* Z_Construct_UClass_AAuraEnemy_NoRegister();
+	AURA_API UClass* Z_Construct_UClass_UEnemyInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Aura();
 // End Cross Module References
 	void AAuraEnemy::StaticRegisterNativesAAuraEnemy()
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -43,6 +45,9 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 		{ "ModuleRelativePath", "Public/Character/AuraEnemy.h" },
 	};
 #endif
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AAuraEnemy_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UEnemyInterface_NoRegister, (int32)VTABLE_OFFSET(AAuraEnemy, IEnemyInterface), false },  // 3317076669
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAuraEnemy_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAuraEnemy>::IsAbstract,
 	};
@@ -53,11 +58,11 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 		DependentSingletons,
 		nullptr,
 		nullptr,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AAuraEnemy_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AAuraEnemy_Statics::Class_MetaDataParams))
 	};
@@ -81,9 +86,9 @@ void EmptyLinkFunctionForGeneratedCodeAuraEnemy() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 466412369U) },
+		{ Z_Construct_UClass_AAuraEnemy, AAuraEnemy::StaticClass, TEXT("AAuraEnemy"), &Z_Registration_Info_UClass_AAuraEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraEnemy), 1491997613U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_1698742715(TEXT("/Script/Aura"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_1905735910(TEXT("/Script/Aura"),
 		Z_CompiledInDeferFile_FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
