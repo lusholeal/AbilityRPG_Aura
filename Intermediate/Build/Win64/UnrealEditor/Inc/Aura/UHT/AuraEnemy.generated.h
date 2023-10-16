@@ -40,7 +40,7 @@ public: \
 
 #define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAuraEnemy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAuraEnemy(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraEnemy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAuraEnemy); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAuraEnemy); \
@@ -53,8 +53,6 @@ public: \
 
 
 #define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Character_AuraEnemy_h_16_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAuraEnemy(); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAuraEnemy(AAuraEnemy&&); \

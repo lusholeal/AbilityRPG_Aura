@@ -19,7 +19,8 @@
             "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.generated.h",
             "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\source\\aura\\public\\interaction\\enemyinterface.h",
             "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h",
-            "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.generated.h"
+            "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.generated.h",
+            "c:\\users\\luisl\\onedrive\\escritorio\\aurarpg\\aura\\source\\aura\\aura.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
