@@ -8,6 +8,8 @@
 /NODEFAULTLIB
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.init.gen.cpp.obj"
+"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraAbilitySystemComponent.gen.cpp.obj"
+"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraAttributeSet.gen.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraCharacter.gen.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraCharacterBase.gen.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraEnemy.gen.cpp.obj"
@@ -16,6 +18,8 @@
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraPlayerState.gen.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\EnemyInterface.gen.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.cpp.obj"
+"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraAbilitySystemComponent.cpp.obj"
+"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraAttributeSet.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraCharacter.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraCharacterBase.cpp.obj"
 "C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraEnemy.cpp.obj"
