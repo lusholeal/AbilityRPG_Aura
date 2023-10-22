@@ -288,7 +288,10 @@ C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Source\Aura\Private\Player\AuraP
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Definitions.h"
+/FI"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Definitions.Aura.h"
+/Yu"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h.pch"
 /Fo"C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraPlayerController.cpp.obj"
 /sourceDependencies C:\Users\Luisl\OneDrive\Escritorio\AuraRPG\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\AuraPlayerController.cpp.dep.json
 /Zc:inline
