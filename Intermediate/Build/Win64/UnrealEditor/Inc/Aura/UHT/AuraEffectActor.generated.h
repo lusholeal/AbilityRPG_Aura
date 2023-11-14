@@ -16,19 +16,23 @@ class UGameplayEffect;
 #endif
 #define AURA_AuraEffectActor_generated_h
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_SPARSE_DATA
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_RPC_WRAPPERS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_SPARSE_DATA
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap); \
 	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnOverlap); \
 	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_ACCESSORS
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_ACCESSORS
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -37,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_INCLASS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_INCLASS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -46,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_STANDARD_CONSTRUCTORS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAuraEffectActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAuraEffectActor) \
@@ -60,7 +64,7 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAuraEffectActor(AAuraEffectActor&&); \
@@ -72,27 +76,27 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_12_PROLOG
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_GENERATED_BODY_LEGACY \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_28_PROLOG
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_SPARSE_DATA \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_RPC_WRAPPERS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_ACCESSORS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_INCLASS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_STANDARD_CONSTRUCTORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_SPARSE_DATA \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_RPC_WRAPPERS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_ACCESSORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_INCLASS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_GENERATED_BODY \
+#define FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_SPARSE_DATA \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_ACCESSORS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_INCLASS_NO_PURE_DECLS \
-	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_15_ENHANCED_CONSTRUCTORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_SPARSE_DATA \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_ACCESSORS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_INCLASS_NO_PURE_DECLS \
+	FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -102,5 +106,22 @@ template<> AURA_API UClass* StaticClass<class AAuraEffectActor>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_Users_Luisl_OneDrive_Escritorio_AuraRPG_Aura_Source_Aura_Public_Actor_AuraEffectActor_h
 
+
+#define FOREACH_ENUM_EEFFECTAPPLICATIONPOLICY(op) \
+	op(EEffectApplicationPolicy::ApplyOnOverlap) \
+	op(EEffectApplicationPolicy::ApplyOnEndOverlap) \
+	op(EEffectApplicationPolicy::DoNotApply) 
+
+enum class EEffectApplicationPolicy;
+template<> struct TIsUEnumClass<EEffectApplicationPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectApplicationPolicy>();
+
+#define FOREACH_ENUM_EEFFECTREMOVALPOLICY(op) \
+	op(EEffectRemovalPolicy::RemoveOnEndOverlap) \
+	op(EEffectRemovalPolicy::DoNotRemove) 
+
+enum class EEffectRemovalPolicy;
+template<> struct TIsUEnumClass<EEffectRemovalPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectRemovalPolicy>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
